@@ -39,7 +39,6 @@
                  echo "<a href='register.php'>Registrasi</a>";
           }
         ?>
-        
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>

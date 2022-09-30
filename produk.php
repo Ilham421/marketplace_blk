@@ -57,7 +57,7 @@
                     <td align="center"><?= $hasilProduk['kode_barang'] ?></td>
                     <td><?= $hasilProduk['nama_barang'] ?></td>
                     <td align="center"><?= $hasilProduk['stok_barang'] ?></td>
-                    <td align="center"><?=  $hasilProduk['harga_barang'] ?></td>
+                    <td align="center"><?= buatRupiah($hasilProduk['harga_barang']) ?></td>
                     <td align="center"><?= $hasilProduk['kategori_barang'] ?></td>
                     <td align="center">
                         <a href="edit.php?kode=<?=$hasilProduk['kode_barang']?>">Edit</a> | 
