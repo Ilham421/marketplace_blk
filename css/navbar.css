@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.headerr {
+    background-color: black;
+    color: white;
+}
+
+.headerr h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Navbar */
+.topnav {
+    width: 100%;
+    animation: backwards;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px rgb(81, 79, 79);
+    overflow: hidden;
+    background-color: #95b2c7;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.topnav img {
+    width: 50px;
+}
+
+.kanan {
+    border-radius: 15px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.kiri {
+    justify-content: first baseline;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.kemnaker {
+    display: flex;
+    align-items: center;
+    color: rgb(87, 85, 85);
+    font-size: 2em;
+    font-weight: bold;
+    width: 600px;
+}
+
+.kemnaker a {
+    display: inline-block;
+    justify-content: center;
+}
+
+
+/* Responsive Navbar (BUG) */
+@media screen and (max-width: 1040px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .topnav.responsive {
+        height: 100vh;
+        position: fixed;
+      }
+    
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav {
+        padding: 0;
+        padding-right: 0;
+        justify-content: space-between;
+        z-index: 5;
+    }
+
+    .topnav p {
+        align-items: center;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: none;
+        text-align: left;
+    }
+
+    .kanan {
+        margin-left: 15px;
+        justify-content: space-between;
+        border-radius: 15px;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        display: block;
+    }
+}
+
+
+#statusjaringan.online {
+    background: green;
+    color: #cbd5e0;
+    padding: 20px;
+    text-align: center;
+}
+
+#statusjaringan.offline {
+    background: tomato;
+    color: cornsilk;
+    padding: 20px;
+    text-align: center;
+}

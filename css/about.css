@@ -1,0 +1,43 @@
+.container_about {
+    margin: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 100vh;
+}
+
+.img_visi img {
+    padding: 30px;
+    float: left;
+    width: 600px;
+    height: 500px;
+}
+
+.visi {
+    font-weight: bold;
+    padding: 30px;
+    font-size: 2.6em;
+}
+
+.detail_visi {
+    font-size: 1.6em;
+}
+
+.img_misi img {
+    margin-top: 180px;
+    padding: 30px;
+    float: right;
+    width: 600px;
+    height: 500px;
+}
+
+.misi {
+    font-weight: bold;
+    padding: 30px;
+    font-size: 2.6em;
+}
+
+.detail_misi {
+    font-size: 1.6em;
+}
