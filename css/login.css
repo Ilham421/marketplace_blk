@@ -1,0 +1,58 @@
+ body {
+     background-image: url(../image/heading1.jpg);
+ }
+
+ #backlogin {
+     background: white;
+     width: 35%;
+     height: 350px;
+     border: 1px solid #d2d2d2;
+     border-radius: 5px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 220px;
+     margin-bottom: auto;
+ }
+
+ #backlogin form {
+     margin-top: 15px;
+     float: left;
+     padding: 5px;
+ }
+
+ #backlogin .inputa {
+     width: 90%;
+     margin-top: 1px;
+     height: 50px;
+     border: 0px;
+     border-bottom: 1px solid #6a82fb;
+     font-size: 16px;
+     font-family: OpenSans-Light;
+     background: transparent;
+ }
+
+ #backlogin .wed {
+     margin-top: 40px;
+     width: 45%;
+     height: 40px;
+     background: #6a82fb;
+     border: none;
+     color: white;
+     font-family: product sans;
+     font-size: 20px;
+     border-radius: 5px;
+ }
+
+ #backlogin h1 {
+     text-align: center;
+     padding: 5px;
+     color: #6a82fb;
+     font-family: Product Sans;
+ }
+
+ #backlogin hr {
+     width: 50%;
+     height: 4px;
+     border: none;
+     background: #6a82fb;
+ }
