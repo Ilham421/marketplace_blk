@@ -57,7 +57,7 @@
                     <td align="center"><?= $hasilProduk['kode_barang'] ?></td>
                     <td><?= $hasilProduk['nama_barang'] ?></td>
                     <td align="center"><?= $hasilProduk['stok_barang'] ?></td>
-                    <td align="center"><?=  buatRupiah($hasilProduk['harga_barang'])  ?></td>
+                    <td align="center"><?=  $hasilProduk['harga_barang'] ?></td>
                     <td align="center"><?= $hasilProduk['kategori_barang'] ?></td>
                     <td align="center">
                         <a href="edit.php?kode=<?=$hasilProduk['kode_barang']?>">Edit</a> | 
@@ -77,8 +77,8 @@
             <label for="nama"> Nama Produk: <input type="text" name="nama" id="nama" placeholder="Masukan nama produk" required></label>
             <label for="stok"> Stok Barang: <input type="number" name="stok" id="stok" placeholder="Masukan jumlah stok produk" required></label>
             <label for="harga"> Harga Produk: <input type="number" name="harga" id="harga" placeholder="Masukan harga produk" required></label>
-            <label for="bidang"> Kategori Produk: 
-                <select name="bidang" id="bidang">
+            <label for="kategori"> Kategori Produk: 
+                <select name="kategori" id="kategori">
                     <option value="" selected="true" disabled="disabled">Kategori Barang:</option>
                     <option value="Promo" > Promo </option>
                     <option value="Minuman" > Minuman </option>

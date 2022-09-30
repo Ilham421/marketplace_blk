@@ -9,13 +9,15 @@
     $nama = $_GET['nama'];
     $stok = $_GET['stok'];
     $harga = $_GET['harga'];
+    $kategori = $_GET['kategori'];
 
     // Query Input ke table tamu
     $sql = "INSERT INTO produk VALUES(
         '{$kode}',
         '{$nama}',
         '{$stok}',
-        '{$harga}');";
+        '{$harga}',
+        '{$kategori}');";
     // Jalankan Query
    mysqli_query($conn,$sql);
       
