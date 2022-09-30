@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/product.css">
+<link rel="stylesheet" href="../css/index.css">
 
 <?php
 
@@ -18,7 +18,7 @@
         '{$harga}');";
     // Jalankan Query
    mysqli_query($conn,$sql);
-
-   header("location: ../produk.php")
-   
+      
+   header("locaitn: ../produk.php");
 ?>
+
