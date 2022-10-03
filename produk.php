@@ -18,6 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAFTAR BARANG | IlhamShop</title>
+    <link rel="shortcut icon" href="image/favico.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/product.css">
 </head>
@@ -31,7 +32,7 @@
     <div class="daftar_produk" data-aos="fade-up-right" data-aos-offset="450" data-aos-duration="1200">
         <h2>Data Produk</h2>
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Product.." title="Type in a name">
-        <table width="100%" id="tamu">
+        <table width="100%" id="produk">
             <tr class="header_table">
                 <th>No</th>
                 <th>Kode Produk</th>

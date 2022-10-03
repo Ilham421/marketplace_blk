@@ -111,7 +111,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registrasi</title>
+    <title>Registrasi | IlhamShop</title>
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
